@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bloodysocial/static/css/main.7f5d5c84.css",
+    "main.js": "/bloodysocial/static/js/main.00705adf.js",
+    "index.html": "/bloodysocial/index.html",
+    "main.7f5d5c84.css.map": "/bloodysocial/static/css/main.7f5d5c84.css.map",
+    "main.00705adf.js.map": "/bloodysocial/static/js/main.00705adf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f5d5c84.css",
+    "static/js/main.00705adf.js"
+  ]
+}
