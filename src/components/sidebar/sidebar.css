@@ -1,0 +1,77 @@
+.sidebar-container {
+  flex: 3;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+
+  position: sticky;
+  top: 50px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(214, 213, 213);
+}
+
+.sidebar-wrapper {
+  padding: 10px;
+}
+
+.sidebar-list,
+.sidebar-fri-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-list-item,
+.fri-list-item {
+  padding: 10px 20px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar-list-item:hover,
+.fri-list-item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-list-text,
+.fri-name {
+  margin-left: 20px;
+}
+
+.more-btn {
+  width: 100%;
+  background-color: rgba(181, 211, 235, 0.5);
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.more-btn:hover {
+  background-color: rgba(181, 211, 235, 0.9);
+}
+
+.sidebar-hr {
+  margin: 20px 0;
+}
+
+.sidebar-fri-list img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
